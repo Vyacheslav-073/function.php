@@ -2,17 +2,17 @@
 
     function greeting($name = "имя", $weekday = 0) {
 
-    switch ($weekday <= 5) {
+        switch ($weekday <= 5) {
             
-        case true:
+            case true:
             
-            echo "Привет, $name! Хорошего и продуктивного рабочего дня!";
-            break;
+                echo "Привет, $name! Хорошего и продуктивного рабочего дня!";
+                break;
             
-        default:
+            default:
             
-            echo "Привет $name! Желаю вам хорошо отдохнуть в этот день!";
-            break; 
+                echo "Привет $name! Желаю вам хорошо отдохнуть в этот день!";
+                break; 
         }
     }
 
